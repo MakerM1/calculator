@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-conteiner {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    margin-bottom: 10px;
+}
+
+.b1,
+.b2,
+.b3,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.b10,
+.b11,
+.b12 {
+    margin-right: 5px;
+}
+
+.b13,
+.b14,
+.b15 {
+    margin-right: 6px;
+}
+
+.b1,
+.b2,
+.b3,
+.b5,
+.b6,
+.b7,
+.b9,
+.b10,
+.b11,
+.b13,
+.b14,
+.b15 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    transition: all 0.15s;
+}
+
+.b1:hover,
+.b2:hover,
+.b3:hover,
+.b5:hover,
+.b6:hover,
+.b7:hover,
+.b9:hover,
+.b10:hover,
+.b11:hover,
+.b13:hover,
+.b14:hover,
+.b15:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+.b1:active,
+.b2:active,
+.b3:active,
+.b5:active,
+.b6:active,
+.b7:active,
+.b9:active,
+.b10:active,
+.b11:active,
+.b13:active,
+.b14:active,
+.b15:active {
+    background-color: rgb(85, 85, 85);
+}
+
+.b4,
+.b8,
+.b12,
+.b16,
+.b17 {
+    background-color: rgb(254, 160, 10);
+    color: white;
+    transition: all 0.15s;
+}
+
+.b4:hover,
+.b8:hover,
+.b12:hover,
+.b16:hover,
+.b17:hover {
+    background-color: rgb(212, 137, 15);
+}
+
+.b4:active,
+.b8:active,
+.b12:active,
+.b16:active,
+.b17:active {
+    background-color: rgb(179, 112, 4);
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.b17 {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.Calculator-screen {
+    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+    width: 230px;
+    height: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}

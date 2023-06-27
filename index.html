@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <div class="main-conteiner text">
+      <div class="conteiner">
+        <h1>Calculator</h1>
+        <p class="Calculator-screen"></p>
+        <div class="row1">
+          <button class="b1" onclick="updateCalculation('1')">1</button>
+          <button class="b2" onclick="updateCalculation('2')">2</button>
+          <button class="b3" onclick="updateCalculation('3')">3</button>
+          <button class="b4" onclick="updateCalculation(' + ')">+</button>
+        </div>
+        <div class="row2">
+          <button class="b5" onclick="updateCalculation('4')">4</button>
+          <button class="b6" onclick="updateCalculation('5')">5</button>
+          <button class="b7" onclick="updateCalculation('6')">6</button>
+          <button class="b8" onclick="updateCalculation(' - ')">-</button>
+        </div>
+        <div class="row3">
+          <button class="b9" onclick="updateCalculation('7')">7</button>
+          <button class="b10" onclick="updateCalculation('8')">8</button>
+          <button class="b11" onclick="updateCalculation('9')">9</button>
+          <button class="b12" onclick="updateCalculation(' * ')">*</button>
+        </div>
+        <div class="row5">
+          <button class="b13" onclick="updateCalculation('0')">0</button>
+          <button class="b14" onclick="updateCalculation('.')">.</button>
+          <button
+            class="b15"
+            onclick="calculation = eval(calculation); updateCalculationDisplay()"
+          >
+            =
+          </button>
+          <button class="b16" onclick="updateCalculation(' / ')">/</button>
+        </div>
+        <button
+          class="b17"
+          onclick="calculation =''; console.clear('Cleared'); updateCalculationDisplay()"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+    <script src="javascript/calculator.js"></script>
+  </body>
+</html>

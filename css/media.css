@@ -1,0 +1,7 @@
+/* Galaxy Fold */
+
+@media (max-width: 290px) {
+    body {
+        width: 500px;
+    }
+}
