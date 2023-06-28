@@ -7,8 +7,16 @@ function updateCalculation(action) {
 
   localStorage.setItem("calc-memor", calculation);
   updateCalculationDisplay();
+  return calculationPrediction();
+
+}
+
+function calculationPrediction() {
+  let calculationPred = eval(calculation) 
+  document.querySelector('.calculation-prediction').innerHTML = `= ${calculationPred}`
 }
 
 function updateCalculationDisplay() {
   document.querySelector(".Calculator-screen").innerHTML = calculation;
 }
+

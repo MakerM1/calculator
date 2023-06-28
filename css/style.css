@@ -143,4 +143,15 @@ button {
     font-size: 30px;
     box-sizing: border-box;
     padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.calc-pred {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 35px;
 }

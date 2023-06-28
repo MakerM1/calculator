@@ -12,6 +12,7 @@
       <div class="conteiner">
         <h1>Calculator</h1>
         <p class="Calculator-screen"></p>
+        <p class="calculation-prediction calc-pred"></p>
         <div class="row1">
           <button class="b1" onclick="updateCalculation('1');">1</button>
           <button class="b2" onclick="updateCalculation('2');">2</button>
@@ -35,7 +36,7 @@
           <button class="b14" onclick="updateCalculation('.');">.</button>
           <button
             class="b15"
-            onclick="calculation = eval(calculation); updateCalculationDisplay(); "
+            onclick="calculation = eval(calculation); updateCalculationDisplay(); document.querySelector('.calculation-prediction').innerHTML = ' '"
           >
             =
           </button>
@@ -43,7 +44,7 @@
         </div>
         <button
           class="b17"
-          onclick="calculation =''; console.clear('Cleared'); updateCalculationDisplay()"
+          onclick="calculation =''; console.clear('Cleared'); updateCalculationDisplay(); document.querySelector('.calculation-prediction').innerHTML = ' '"
         >
           Clear
         </button>
